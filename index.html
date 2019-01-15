@@ -18,34 +18,26 @@
     <div class="main">
         
         <div class="header">
-            <img src="images/header-text.png" alt="">
-            <img src="images/dots.png" alt="">
+            <img src="images/logo.png" alt="">
+            <h1 style="color:orange;font-size:2rem;">FAU Raffle Giveaway<br><span style="color:green;font-size:1.5rem;">$250 Prize Value!</span></h1>
         </div>
         <div class="container">
             <form id="booking-form" class="booking-form" method="POST">
                 <div class="form-group">
-                    <div class="form-destination">
-                        <label for="destination">Destination</label>
-                        <input type="text" id="destination" name="destination" placeholder="EG. HAWAII" />
+                    <div class="form-date-from">
+                        <label for="destination">First Name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="" />
                     </div>
-                    <div class="form-date-from form-icon">
-                        <label for="date_from">From</label>
-                        <input type="text" id="date_from" class="date_from" placeholder="Pick a date" />
-                        <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                    <div class="form-date-from">
+                        <label for="date_from">Last Name</label>
+                        <input type="text" id="lastname" placeholder="" />
                     </div>
-                    <div class="form-date-to form-icon">
-                        <label for="date_to">To</label>
-                        <input type="text" id="date_to" class="date_to" placeholder="Pick a date" />
-                        <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
-                    </div>
-                    <div class="form-quantity">
-                        <label for="quantity">Quantity</label>
-                        <span class="modify-qty plus" onClick="Tang()"><i class="zmdi zmdi-chevron-up"></i></span>
-                        <input type="number" name="quantity" id="quantity" value="0" min="0" class="nput-text qty text">
-                        <span class="modify-qty minus" onClick="Giam()"><i class="zmdi zmdi-chevron-down"></i></span>
+                    <div class="form-date-from">
+                        <label for="date_to">Email</label>
+                        <input type="email" id="email" placeholder="" />
                     </div>
                     <div class="form-submit">
-                        <input type="submit" id="submit" class="submit" value="Book now" />
+                        <input type="submit" id="submit" class="submit" value="Subscribe" />
                     </div>
                 </div>
             </form>

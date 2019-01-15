@@ -2,7 +2,7 @@
 
 ## What is this repository for ##
 
-* App Name
+* FAU Booth Email Signup Raffle Giveaway
 * Version 0.0
 
 ## How do I get set up ##
@@ -16,39 +16,10 @@
 
 ### Vendors ###
 
-* Unify 1.9.6 Template
-* NodeJs (dev only)
 * jQuery
-* Bootstrap
+* Bootstrap 4
 * Font Awesome
 * MailChimp
-* HubSpot
-* AddThis
-
-### Dev Dependencies ###
-
-* babel-core
-* babel-loader
-* babel-preset-es2015
-* gulp
-* gulp-autoprefixer
-* gulp-babel
-* gulp-clean-css
-* gulp-concat
-* gulp-htmlmin
-* gulp-image-resize
-* gulp-imagemin
-* gulp-less
-* gulp-livereload
-* gulp-minify
-* gulp-plumber
-* gulp-real-favicon
-* gulp-sourcemaps
-* gulp-sync
-* gulp-uglify
-* imagemin-pngquant
-* less-plugin-autoprefix
-* require-dir
 
 ## Release History ##
 
